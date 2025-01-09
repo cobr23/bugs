@@ -35,7 +35,6 @@ global.isLink = 'https://whatsapp.com/channel/0029Vark1I1AYlUR1G8YMX31'
 global.packname = "❃ɪᴍᴀʟᴋᴀ ʜᴀɴꜱᴀᴍᴀʟ❃"
 global.author = "☠︎︎ ɪᴍᴀʟᴋᴀ ʜᴀɴꜱᴀᴍᴀʟ"
 global.jumlah = "5"
-ownernumber1 : process.env.ownernumber1 === undefined ? '94711262551' : process.env.ownernumber1
 
 
 
