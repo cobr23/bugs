@@ -35,7 +35,7 @@ browser: [ "Ubuntu", "Chrome", "20.0.04" ]
 }
 const zyn = func.makeWASocket(connectionOptions)
 if(usePairingCode && !zyn.authState.creds.registered) {
-		const phoneNumber = config.ownernumber1
+		const phoneNumber = confi.OWNER
 		const code = await zyn.requestPairingCode(phoneNumber.trim())
 		console.log(chalk.green(`Your Pairing Code : ${code} `))
 
